@@ -21,5 +21,5 @@ I have provided a script to recreate the issue.
 git clone https://github.com/fahimfarookme/config-server-incorrect-health-issue.git
 cd config-server-incorrect-health-issue/scripts
 vim set_env.sh -- and set JAVA_HOME and remote repo details.
-./2-nw-partition-after-first-health.sh
+./2-nw-partition-after-first-health.sh 7001 git
 ```
